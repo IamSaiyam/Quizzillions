@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060452990319",
+    "project_id": "quiz-7689b",
+    "storage_bucket": "quiz-7689b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060452990319:android:a9513ea742315fc0cbfc9a",
+        "android_client_info": {
+          "package_name": "com.quizzilion.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060452990319-bn3jut7uk2ja68c1sjaegbtkl2422oji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlOqScazN7Vp6IiKGQk16dNWZ-atuNLdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060452990319-bn3jut7uk2ja68c1sjaegbtkl2422oji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

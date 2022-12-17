@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheQuiz"
+    android:background="@color/white">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/artsetquesitons"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:id="@+id/timerTv"
+                    android:text="00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/blue_back"
+                    android:fontFamily="@font/baloo"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"/>
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:background="@color/blue_back"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left"
+                    android:layout_marginRight="20dp">
+                    <TextView
+                        android:id="@+id/question_num_quiz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:padding="5dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="Q1"
+                        android:textColor="@color/darkGray" />
+
+                    <TextView
+                        android:id="@+id/question_quiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/darkGray"
+                        android:fontFamily="@font/baloo"
+                        android:text="hlasdhdfoinmsmsdadffj"
+                        android:textSize="16sp"
+                        android:padding="5dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="40dp">
+
+                    <RadioButton
+                        android:id="@+id/op1_quiz"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Option1"
+                        android:buttonTint="@color/blue_back"
+                        android:fontFamily="@font/baloo"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/op2_quiz"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Option2"
+                        android:buttonTint="@color/blue_back"
+                        android:fontFamily="@font/baloo" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_marginRight="40dp">
+
+                    <RadioButton
+                        android:id="@+id/op3_quiz"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Option3"
+                        android:buttonTint="@color/blue_back"
+                        android:fontFamily="@font/baloo" />
+
+                    <RadioButton
+                        android:id="@+id/op4_quiz"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Option4"
+                        android:buttonTint="@color/blue_back"
+                        android:fontFamily="@font/baloo" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp">
+                <TextView
+                    android:id="@+id/next_question_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@color/blue_back"
+                    android:fontFamily="@font/baloo"
+                    android:text="Submit &amp; Next" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/prev_quesion_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/blue_back"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:background="@drawable/blue_border"
+                    android:fontFamily="@font/baloo"
+                    android:text="Previous Question" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

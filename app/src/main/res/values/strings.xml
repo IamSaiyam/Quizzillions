@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quizzillions</string>
+
+    <string-array name="test_time">
+        <item>10min</item>
+        <item>15min</item>
+        <item>20min</item>
+        <item>25min</item>
+        <item>30min</item>
+        <item>45min</item>
+        <item>60min</item>
+        <item>90min</item>
+    </string-array>
+
+</resources>

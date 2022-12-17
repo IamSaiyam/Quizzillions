@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable-v24/home_gradient_maths.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/black_border.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/blue_back_bottom_curved.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/blue_border.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/blue_border_filled.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.178" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.178" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/cursor_color.xml" value="0.178" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/drawable/welcome_to_quiz_back.xml" value="0.1985" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_admin_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_admin_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_admin_results.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_create_quiz.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_enter_quiz.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_landing.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_quiz_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_quiz_end.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_set_questions.xml" value="0.205859375" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_share_quiz.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/activity_the_quiz.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/participant_item_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/quiz_item_view.xml" value="0.2734375" />
+        <entry key="..\:/Users/saiya/Desktop/Ryders/android-samples-master/tutorials/Quizzillions/app/src/main/res/layout/single_content.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
